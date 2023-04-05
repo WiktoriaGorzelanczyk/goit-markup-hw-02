@@ -4,11 +4,17 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="vievport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link 
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
+        <link rel="stylesheet" href="./css/styles.css" />
         <title>Zadanie domowe 2</title>
     </head>
     <body>
-        <header>
-            <a href="./index.html" title="WebStudio" >
+        <header class="header-background>
+            <a class="menu-link" href="./index.html" title="WebStudio" >
                 <span>Web</span>
                 <span>Studio</span>
             </a>
@@ -16,29 +22,29 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="./index.html">Agencja</a>
+                        <a class="link" href="./index.html">Agencja</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html">Portfolio</a>
+                        <a class="link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Kontakt</a>
+                        <a class="link" href="#">Kontakt</a>
                     </li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="social-links">
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+48111111111">+48 111 111 111</a>
+                    <a class="link" href="tel:+48111111111">+48 111 111 111</a>
                 </li>
             </ul>
         </header>
         <main>
             <section class="main-first">
                 <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button type="button">Zamów usługę</button>
+                <button  class="button-primary" type="button">Zamów usługę</button>
             </section>
             <section>
                 <ul>
@@ -71,30 +77,38 @@
             <section>
                 <div>
                     <h2>Czym się zajmujemy</h2>
+                    <ul>
+                    <li>
                     <img 
                       src="./images/programming.jpg"
                       width="370"
                       height="293"
                       alt="Ktoś pisze program na komputerze, korzystając z pomocy tableta i schematu na kartce."
                     />
+                    </li>
+                    <li>
                     <img 
                     src="./images/apps.jpg"
                     width="370"
                     height="293"
                     alt="Ktoś zastanawia się nad wyborem wyglądu aplikacji na urządzeniach mobilnych."
                     />
+                    </li>
+                    <li>
                     <img 
                     src="./images/colours.jpg"
                     width="370"
                     height="293"
                     alt="Wyświetlona jest tabela kolorów na tablecie."
                     />
+                    </li>
+                    </ul>
                 </div>
             </section>
-            <section>
+            <section class="section-background">
                 <h2>Nasz zespół</h2>
                 <ul>
-                    <li>
+                    <li class="color-pictures">
                         <img 
                         src="./images/John.jpg"
                         width="270"
