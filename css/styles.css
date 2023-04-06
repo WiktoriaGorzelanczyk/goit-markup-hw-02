@@ -1,2 +1,19 @@
-
-
+body {
+    font-family: Roboto;
+    font-size: 2;
+    color: black;
+    line-height: 1;
+}
+.button-primary:hover ,
+.button-primary:active {
+    cursor: pointer;
+    color: blue;
+}
+.main-footer {
+    background-color: gray;
+    color: black;
+}
+.main-first {
+    background-color: gray;
+    color: black;
+}
