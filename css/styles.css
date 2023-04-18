@@ -1,6 +1,7 @@
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 2;
+    font-weight: 700;
     color: black;
     line-height: 1;
 }
@@ -15,5 +16,40 @@ body {
 }
 .main-first {
     background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.root {
+    --active-color: #2196f3;
+    --logo-header: black;
+    --logo-footer: white;
+    --logo-web: #2196F3;
+    --secondcolor: #757575;
+    --first-background-color: #2F303A;
+}
+.header-background {
     color: black;
+}
+.section:hover,
+.section:active {
+    cursor: pointer;
+    color: #2196f3;
+}
+link:hover {
+    text-decoration-color: #2196F3;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #212121;
+}
+.button:hover ,
+.button:active {
+    cursor: pointer;
+    color: blue;
 }
