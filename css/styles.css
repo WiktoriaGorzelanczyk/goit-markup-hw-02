@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     color: black;
+    letter-spacing: 0.03em;
 }
 .button-primary:hover ,
 .button-primary:active {
@@ -31,7 +32,7 @@ h2 {
     font-size: 14px;
     font-weight: 270px;
     line-height: .05;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     text-align: left;
     color: #212121;
 }
@@ -44,6 +45,7 @@ h2 {
 }
 ul {
     list-style-type: none;
+    letter-spacing: 0.03em;
 }
 button {
     color: #FFFFFF;
@@ -73,10 +75,12 @@ address {
 }
 .menu-links {
     text-decoration: none; 
+    letter-spacing: 0.03em;
 }
 .link {
     text-decoration: none;
     color: #212121;
+    letter-spacing: 0.03em;
 }
 .link:hover ,
 .link:active {
@@ -97,4 +101,7 @@ address {
     color: #212121;
     font-style: Raeway;
     text-decoration: none;
+}
+li {
+    letter-spacing: 0.03em;
 }
