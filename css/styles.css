@@ -15,15 +15,6 @@ body {
     color: white;
     text-align: center;
 }
-
-.root {
-    --active-color: #2196f3;
-    --logo-header: black;
-    --logo-footer: white;
-    --logo-web: #2196F3;
-    --secondcolor: #757575;
-    --first-background-color: #2F303A;
-}
 .header-background {
     color: black;
 }
@@ -44,10 +35,12 @@ h2 {
     text-align: left;
     color: #212121;
 }
-.button:hover ,
-.button:active {
+.buttons:hover ,
+.buttons:active {
     cursor: pointer;
-    color: blue;
+    background: #2196F3;
+    color: #FFFFFF;
+
 }
 ul {
     list-style-type: none;
@@ -55,4 +48,10 @@ ul {
 button {
     color: #FFFFFF;
     background-color: #2196F3;
+    border: #2196F3;
+}
+.buttons {
+    color: #212121;
+    background-color:#F5F4FA; 
+
 }
