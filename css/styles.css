@@ -16,7 +16,8 @@ body {
     text-align: center;
 }
 .header-background {
-    color: black;
+    color: #2196F3;
+    text-decoration: none;
 }
 .section:hover,
 .section:active {
@@ -27,10 +28,9 @@ link:hover {
     text-decoration-color: #2196F3;
 }
 h2 {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
+    font-size: 14px;
+    font-weight: 270px;
+    line-height: .05;
     letter-spacing: 0.06em;
     text-align: left;
     color: #212121;
@@ -53,5 +53,48 @@ button {
 .buttons {
     color: #212121;
     background-color:#F5F4FA; 
-
+}
+p {
+    color: #757575;
+}
+address {
+    font-style: normal;
+    color: #FFFFFF;
+}
+.links {
+    color: #FFFFFF99;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.links:hover,
+.links:active {
+    cursor: pointer;
+    color:#2196F3;
+}
+.menu-links {
+    text-decoration: none; 
+}
+.link {
+    text-decoration: none;
+    color: #212121;
+}
+.link:hover ,
+.link:active {
+    cursor: pointer;
+    color: #2196F3;
+}
+.title {
+    color: #2196F3;
+    font-style: Raeway;
+    text-decoration: none;
+}
+.studio {
+    color: #FFFFFF;
+    font-style: Raeway;
+    text-decoration: none;
+}
+.studios {
+    color: #212121;
+    font-style: Raeway;
+    text-decoration: none;
 }
