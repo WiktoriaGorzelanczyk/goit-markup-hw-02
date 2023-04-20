@@ -1,21 +1,17 @@
 body {
     font-family: Roboto, sans-serif;
-    font-size: 2;
-    font-weight: 700;
     color: black;
-    line-height: 1;
 }
 .button-primary:hover ,
 .button-primary:active {
     cursor: pointer;
-    color: blue;
 }
 .main-footer {
-    background-color: gray;
+    background-color: #2F303A;
     color: black;
 }
 .main-first {
-    background-color: gray;
+    background-color:#2F303A;
     color: white;
     text-align: center;
 }
@@ -52,4 +48,11 @@ h2 {
 .button:active {
     cursor: pointer;
     color: blue;
+}
+ul {
+    list-style-type: none;
+}
+button {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
