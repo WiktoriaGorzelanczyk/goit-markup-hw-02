@@ -29,7 +29,10 @@ link:hover {
     text-decoration-color: #2196F3;
 }
 h1 {
-    
+    font-size: ;
+    font-weight: ;
+    line-height: ;
+    letter-spacing: 0.03em;
 }
 h2 {
     font-size: 14px;
@@ -83,7 +86,9 @@ address {
 .link {
     text-decoration: none;
     color: #212121;
+    font-size: ;
     letter-spacing: 0.03em;
+    line-height: ;
 }
 .link:hover ,
 .link:active {
@@ -107,4 +112,9 @@ address {
 }
 li {
     letter-spacing: 0.03em;
+}
+.button-primary {
+    line-height: ;
+    font-size: ;
+    letter-spacing: 0.03em
 }
