@@ -8,16 +8,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link 
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
         <link rel="stylesheet" href="./css/styles.css" />
         <title>Zadanie domowe 2</title>
     </head>
     <body>
-        <header class="header-background">
-            <a class="title" href="/index.html">Web<span class="studios">Studio</span></a>
+        <header class="header-menu">
+            <a class="title" href="/index.html"><span class="studio">Web</span>Studio</a>
             <!-- Logo -->
-            <nav>
-                <ul>
+            <nav class="menu-links">
+                <ul class="list">
                     <li>
                         <a class="link" href="./index.html">Agencja</a>
                     </li>
@@ -40,13 +40,13 @@
         </header>
         <main>
             <section class="main-first">
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <h1 class="main-first-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <button  class="button-primary" type="button">Zamów usługę</button>
             </section>
-            <section>
-                <ul>
+            <section class="descriptions">
+                <ul class="list">
                     <li>
-                        <h2>LOREM IPSUM</h2>
+                        <h2 class="descriptions-name">LOREM IPSUM</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
@@ -54,7 +54,7 @@
                         </p>
                     </li>
                     <li>
-                        <h2>LOREM IPSUM</h2>
+                        <h2 class="descriptions-name">LOREM IPSUM</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
@@ -62,7 +62,7 @@
                         </p>
                     </li>
                     <li>
-                        <h2>LOREM IPSUM</h2>
+                        <h2 class="descriptions-name">LOREM IPSUM</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
@@ -71,11 +71,10 @@
                     </li>
                 </ul>
             </section>
-            <section>
-                <div>
-                    <h2>Czym się zajmujemy</h2>
-                    <ul>
-                    <li>
+            <section class="work">
+              <h2 class="work-text">Czym się zajmujemy</h2>
+                    <ul class="list">
+                    <li class="work-images">
                     <img 
                       src="./images/programming.jpg"
                       width="370"
@@ -83,7 +82,7 @@
                       alt="Ktoś pisze program na komputerze, korzystając z pomocy tableta i schematu na kartce."
                     />
                     </li>
-                    <li>
+                    <li class="work-images">
                     <img 
                     src="./images/apps.jpg"
                     width="370"
@@ -91,7 +90,7 @@
                     alt="Ktoś zastanawia się nad wyborem wyglądu aplikacji na urządzeniach mobilnych."
                     />
                     </li>
-                    <li>
+                    <li class="work-images">
                     <img 
                     src="./images/colours.jpg"
                     width="370"
@@ -100,56 +99,71 @@
                     />
                     </li>
                     </ul>
-                </div>
             </section>
-            <section class="section-background">
-                <h2>Nasz zespół</h2>
-                <ul>
-                    <li class="color-pictures">
+            <section class="team">
+                <h2 class="team-text">Nasz zespół</h2>
+                <ul class="list">
+                    <li class="team-list">
+                        <figure class="team-images">
                         <img 
                         src="./images/John.jpg"
                         width="270"
                         height="368"
                         alt="Product Designer"
                         />
-                        <p>John Doe</p>
-                        <p>Project Designer</p>
+                        <figcaption>
+                            <h2 class="team-name">John Doe</h2>
+                            <span class="team-job">Project Designer</span>
+                        </figcaption>
+                        </figure>
                     </li>
-                    <li>
+                    <li class="team-list">
+                        <figure class="team-images">
                         <img 
                         src="./images/Alice.jpg"
                         width="270"
                         height="368"
                         alt="Fronted Developer"
                         />
-                        <p>John Doe</p>
-                        <p>Fronted Developer</p>
+                        <figcaption>
+                            <h2 class="team-name">John Doe</h2>
+                            <span class="team-job">Fronted Developer</span>
+                        </figcaption>
+                        </figure>
                     </li>
-                    <li>
+                    <li class="team-list">
+                        <figure class="team-images">
                         <img 
                         src="./images/Rob.jpg"
                         width="270"
                         height="368"
                         alt="Marketing"
                         />
-                        <p>John Doe</p>
-                        <p>Marketing</p>
+                        <figcaption>
+                            <h2 class="team-name">John Doe</h2>
+                            <span class="team-job">Marketing</span>
+                        </figcaption>
+                        </figure>
                     </li>
-                    <li>
+                    <li class="team-list">
+                        <figure class="team-images">
                         <img
                         src="./images/Jacob.jpg"
                         width="270"
                         height="368"
                         alt="UI Designer"
                         />
-                        <p>John Doe</p>
-                        <p>UI Designer</p>
+                        <figcaption>
+                            <h2 class="team-name">John Doe</h2>
+                            <span class="team-job">UI Designer</span>
+                        </figcaption>
+                        </figure>
                     </li>
                 </ul>
             </section>
         </main>
         <footer class="main-footer">
-                <a class="title" href="/index.html">Web<span class="studio">Studio</span></a>
+                <a class="title" href="/index.html"><span class="studio">Web</span>Studio</a>
             <!-- Logo-->
             <address>
               <ul class="address">
